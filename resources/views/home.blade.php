@@ -11,7 +11,7 @@
             <div class="card">
 
                 <div class="card-body">
-                    <div class="row align-items-center">
+                    <div class="row align-items-flex">
                     <div class="col-md-4 ">
                     <img src={{url('/images/login.png')}} width="420px" height="250px" alt=""/>
 

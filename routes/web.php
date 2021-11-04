@@ -18,3 +18,9 @@ Route::get('/', function () {
 });
 Route::view('home','home')->middleware('auth');
 
+Route::view('/staff','staff')->middleware('auth');
+Route::view('/leaves','leaves')->middleware('auth');
+Route::view('/events','events')->middleware('auth');
+Route::view('/contracts','contracts')->middleware('auth');
+
+

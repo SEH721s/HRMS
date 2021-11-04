@@ -47,17 +47,17 @@
         </style>    
     </head>
     <body>
+        
         <div class="d-flex" id="wrapper">
         <!-- Sidebar -->
         <div class="bg-light border-right" id="sidebar-wrapper">
         <div class="list-group list-group-flush">
-            <a href="#" class="list-group-item list-group-item-action bg-light">Dashboard</a>
+            <a href="/home" class="list-group-item list-group-item-action bg-light">Dashboard</a>
             
-            <a href="#" class="list-group-item list-group-item-action bg-light">Manage Staff</a>
-            <a href="#" class="list-group-item list-group-item-action bg-light">Staff On Leave</a>
-            <a href="#" class="list-group-item list-group-item-action bg-light">Birthdays & Work Anniversaries</a>
-            <a href="#" class="list-group-item list-group-item-action bg-light">Contracts</a>
-            <a href="#" class="list-group-item list-group-item-action bg-light">Psychometrics</a>
+            <a href="/staff" class="list-group-item list-group-item-action bg-light">Manage Staff</a>
+            <a href="/leaves" class="list-group-item list-group-item-action bg-light">Staff On Leave</a>
+            <a href="/events" class="list-group-item list-group-item-action bg-light">Birthdays & Work Anniversaries</a>
+            <a href="/contracts" class="list-group-item list-group-item-action bg-light">Contracts</a>
         </div>
         </div>
         <!-- /#sidebar-wrapper -->
